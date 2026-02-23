@@ -8,7 +8,7 @@ public class OrderItem {
 	@JoinColumn(name =  "Order")
 	int itemId;
 	
-	 private String productName;
+	private String productName;
     private Integer quantity;
     private Double price;
     
